@@ -1,6 +1,7 @@
 # Airbnb Data Science Project
 
-[![Seattle](seattle.jpg)](https://mohamedirfansh.github.io/Airbnb-Data-Science-Project/)
+![seattle](https://github.com/user-attachments/assets/11f713b5-aa9f-43a7-b203-1a68f21ba25b)
+
 
 
 
