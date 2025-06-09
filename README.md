@@ -23,6 +23,16 @@ Afterwards, we did Machine Learning on the data by adpoting 6 different **Regres
 5. Ridge Regression
 6. Lasso Regression
 
+## Enhancements
+
+We enhanced our exploratory analysis by adding:
+
+1. Interactive visualizations with Plotly for better data exploration.
+
+2. Dropdown filters, hover tooltips, zoom, and pan features for improved user experience.
+
+3. Storytelling markdown cells that guide the user through insights and key takeaways from the data.
+
 We partitioned the data into train and test sets and evaluated the models on their prediction accuracy. Once we found the most accurate prediction model, we used that model in a library called **TreeInterpreter** which decomposed the prediction into a sum of contributions from each feature: `Prediction = Bias + Feature1 x Contribution1 + … + FeatureN x ContributionN`. We used this to find the most important features that affected the price of a listing.
 
 ## Getting Started
@@ -49,8 +59,14 @@ pip install wordcloud
 pip install xgboost
 pip install catboost
 pip install treeinterpreter
+pip install plotly 
+pip install ipywidgets
 ```
 
+Enable interactive widgets in Jupyter Notebook:
+```
+jupyter nbextension enable --py widgetsnbextension
+```
 
 You can then open the following files with **Jupyter Notebook**:
 ```
@@ -70,4 +86,6 @@ Machine Learning Models.ipynb
 + [XGBoost](https://xgboost.readthedocs.io/en/latest/) - Used to implement gradient boost decision trees
 + [CatBoost](https://catboost.ai/) - Used to implement gradient boost decision trees
 + [TreeInterpreter](https://pypi.org/project/treeinterpreter/) - Used to decompose predictions into a sum of contributions from each feature
++ [Plotly] - Interactive visualizations
++ [Ipywidgets] - Interactive controls (dropdowns, sliders)
 
