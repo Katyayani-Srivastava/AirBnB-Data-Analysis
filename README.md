@@ -86,6 +86,6 @@ Machine Learning Models.ipynb
 + [XGBoost](https://xgboost.readthedocs.io/en/latest/) - Used to implement gradient boost decision trees
 + [CatBoost](https://catboost.ai/) - Used to implement gradient boost decision trees
 + [TreeInterpreter](https://pypi.org/project/treeinterpreter/) - Used to decompose predictions into a sum of contributions from each feature
-+ [Plotly] - Interactive visualizations
-+ [Ipywidgets] - Interactive controls (dropdowns, sliders)
++ [Plotly](https://plotly.com/python/) - Interactive visualizations
++ [Ipywidgets](https://ipywidgets.readthedocs.io/en/latest/) - Interactive controls (dropdowns, sliders)
 
